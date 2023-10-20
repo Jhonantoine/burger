@@ -463,7 +463,7 @@ header{
 
  /* phone screen 2*/
 
-@media screen and (min-width: 350px) and (max-width: 480px){
+@media screen and (min-width: 300px) and (max-width: 650px){
   
 
   nav{
