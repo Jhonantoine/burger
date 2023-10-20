@@ -155,7 +155,7 @@ header{
 
 /* phone screen */
 
-@media screen and (min-width: 300px) and (max-width: 800px){
+@media screen and (min-width: 700px) and (max-width: 800px){
   
 
   nav{
@@ -453,3 +453,163 @@ header{
   }
   
   }
+
+
+
+
+
+
+
+
+ /* phone screen 2*/
+
+@media screen and (min-width: 350px) and (max-width: 480px){
+  
+
+  nav{
+      height: 10vh;
+      width: 100%;
+      background-color: #1B4391;
+  }
+  
+  .logo{
+      display: flex;
+      margin-right: 20px;
+      padding: 0;
+      justify-content: space-between;
+  }
+  
+  .logo .log img{
+      width: 55px;
+      border-radius: 200%;
+      margin: 7px 20px;
+      margin-right: 5px;
+      position: absolute;
+  }
+  
+  .logo ul li img {
+      width: 20px;
+      position: absolute;
+  }
+  
+  .logo ul{
+      display: flex;
+      margin-top: 75px;
+      margin-left: -85px;
+  
+  }
+  
+  .logo ul li{
+      margin: 1px 20px;
+      border: transparent;
+      padding: 0px 0px;
+      border-radius: 10px;
+  }
+  
+  .logo ul li a{
+      color: antiquewhite;
+      font-size: 15px;
+      font-family: monospace;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: 0.3s;
+  }
+  
+  .logo ul li a:active{
+      color: black;
+      font-size: 15px;
+      font-family: monospace;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background-color: antiquewhite;
+      padding: 0px 15px;
+      border-radius: 10px;
+  }
+  
+  .bou{
+    margin-left: -150px;
+  }
+  
+  .boot1 {
+      margin: 10px 0px;
+      background-color: chocolate;
+      border: none;
+      font-family: monospace;
+      font-weight: bolder;
+      color: antiquewhite;
+      cursor: pointer;
+      padding: 10px;
+      letter-spacing: 1px;
+      border-radius: 10px;
+      transition: 0.6s;
+  }
+  
+  .boot1:active{
+      padding: 12px;
+      font-size: 12px;
+  }
+  
+  .logo ul li.active a{
+      color: black;
+      font-size: 15px;
+      font-family: monospace;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background-color: antiquewhite;
+      padding: 0px 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+  }
+  
+  .logo ul li.active a:active{
+      color: black;
+      font-size: 15px;
+      font-family: monospace;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background-color: antiquewhite;
+      padding: 0px 15px;
+      border-radius: 10px;
+  }
+  
+  header{
+      height: 90vh;
+      width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bg1.webp);
+      background-size: cover;
+      background-position: top;
+      border-bottom:3px solid antiquewhite;
+  }
+  
+  .contenair{
+      position: relative;
+      width: fit-content;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-bottom:2px solid #1B4391;
+  }
+  
+  .contenair img{
+      width: 350px;
+      border-radius: 50%;
+  }
+  
+  .contenair h1{
+      font-size: 70px;
+      text-align: center;
+      color: #1B4391;
+      -webkit-text-stroke: 1px antiquewhite;
+      letter-spacing: 4px;
+  }
+  
+  }
+
+
+
+
+
