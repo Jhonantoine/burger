@@ -199,7 +199,7 @@ header{
   
   .logo ul li a{
       color: antiquewhite;
-      font-size: 15px;
+      font-size: 8px;
       font-family: monospace;
       font-weight: 1000;
       text-transform: uppercase;
@@ -215,7 +215,7 @@ header{
       text-transform: uppercase;
       letter-spacing: 2px;
       background-color: antiquewhite;
-      padding: 0px 15px;
+      padding: 0px 8px;
       border-radius: 10px;
   }
   
