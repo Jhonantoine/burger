@@ -155,7 +155,7 @@ header{
 
 /* phone screen */
 
-@media screen and (min-width: 700px) and (max-width: 800px){
+@media screen and (min-width: 500px) and (max-width: 800px){
   
 
   nav{
